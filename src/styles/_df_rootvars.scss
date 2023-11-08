@@ -1,0 +1,10 @@
+// todo: clean all this up! Not sure about css3 variable colors
+//  seems like USWDS should be using
+:root {
+  --navbar-height: 2.1rem;
+  --navbar-bg-color: rgb(1, 113, 194);
+  --navbar-fg-color: #e3ca01;
+  --enabled-item-color: rgba(0, 0, 0, 0.95);
+  --enabled-item-color-hover: rgba(0, 0, 0, .95);
+  --disabled-item-color: rgba(0, 0, 0, 0.5);
+}

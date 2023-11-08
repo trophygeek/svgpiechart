@@ -1,0 +1,30 @@
+// wish uswds just used css vars instead of this approach.
+@use "uswds-core" with (
+  $theme-image-path: '@uswds/uswds/img',
+  $theme-font-path: '@uswds/uswds/fonts',
+
+  $theme-show-compile-warnings: true,
+  $theme-show-notifications: false,
+
+  /* Theme palette colors */
+  // /node_modules/@uswds/uswds/packages/uswds-core/src/styles/settings/_settings-color.scss
+  // basically replace these values with what's defined for "Base colors" e.g. $theme-color-base-family
+  $theme-color-primary-family: "blue",
+  //$theme-color-primary-lightest: "blue-5",
+  //$theme-color-primary-lighter: "blue-cool-10",
+  //$theme-color-primary-light: "blue-cool-30",
+  //$theme-color-primary: "blue-90",
+  //$theme-color-primary-vivid: "blue-cool-60",
+  //$theme-color-primary-dark: "blue-cool-70",
+  //$theme-color-primary-darker: "blue-90",
+  //$theme-color-primary-darkest: "blue-90",
+
+  $theme-color-secondary-family: "gray",
+
+  $theme-button-border-radius: 0,
+
+  /** the topnav gets weird if the window is made wide we don't set these */
+  $theme-header-max-width: "widescreen",
+  // $theme-header-min-width:
+  $theme-header-logo-text-width: "100%",
+);

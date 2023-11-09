@@ -2,6 +2,7 @@
   "name": "svgpiechart",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "packageManager": "yarn@1.22.19",
   "homepage": "https://trophygeek.github.io/svgpiechart",
   "dependencies": {
@@ -19,13 +20,13 @@
     "react-dom": "^18.2.0"
   },
   "scripts": {
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "compile_scss_dev": "sass --load-path=./node_modules/@uswds/uswds/packages/ --embed-source-map --quiet-deps src/styles/global.scss:src/content/generated/global.out.css",
-    "watch_scss": "yarn compile_scss_dev && sass --load-path=./node_modules/@uswds/uswds/packages/ --embed-source-map --quiet-deps -w src/styles/global.scss:src/content/generated/global.out.css"
+    "watch_scss": "yarn compile_scss_dev && sass --load-path=./node_modules/@uswds/uswds/packages/ --embed-source-map --quiet-deps -w src/styles/global.scss:src/content/generated/global.out.css",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build --dist 'build' --branch 'gh-pages'"
   },
   "eslintConfig": {
     "extends": [

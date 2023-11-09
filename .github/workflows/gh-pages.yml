@@ -15,10 +15,10 @@ jobs:
           cache: 'yarn'
           node-version: 16
 
-      - name: Checkout 🛎️
+      - name: Install 🛎️
         run: yarn install --frozen-lockfile # optional, --immutable
 
-      - name: Install and Build 🔧
+      - name: Build 🔧
         run: yarn react-scripts build
 
       - name: Deploy 🚀

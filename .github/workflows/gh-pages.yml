@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '14'
           cache: 'yarn'
-      - run: yarn install --frozen-lockfile # optional, --immutable
+        run: yarn install --frozen-lockfile # optional, --immutable
 
       - name: Install and Build 🔧
         run: yarn react-scripts build

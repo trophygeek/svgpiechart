@@ -1,0 +1,26 @@
+name: Publish to GitHub Pages
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  Scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+
+      - name: Checkout 🛎️
+        with:
+          node-version: '14'
+          cache: 'yarn'
+      - run: yarn install --frozen-lockfile # optional, --immutable
+
+      - name: Install and Build 🔧
+        run: yarn react-scripts build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build # The folder the action should deploy.

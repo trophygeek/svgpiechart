@@ -26,7 +26,7 @@
     "compile_scss_dev": "sass --load-path=./node_modules/@uswds/uswds/packages/ --embed-source-map --quiet-deps src/styles/global.scss:src/content/generated/global.out.css",
     "watch_scss": "yarn compile_scss_dev && sass --load-path=./node_modules/@uswds/uswds/packages/ --embed-source-map --quiet-deps -w src/styles/global.scss:src/content/generated/global.out.css",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build --dist 'build' --branch 'gh-pages'"
+    "deploy": "gh-pages -d build --dist 'build' --branch 'main'"
   },
   "eslintConfig": {
     "extends": [

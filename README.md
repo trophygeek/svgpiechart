@@ -1,8 +1,18 @@
 # SVG Pie Chart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Serverless (runs in local browser only) app to build a downloadable SVG pie chart
 
-## Available Scripts
+Visit site at:
+[https://trophygeek.github.io/svgpiechart↗](https://trophygeek.github.io/svgpiechart/)
+
+<img width="900" alt="image" src="https://github.com/trophygeek/svgpiechart/assets/522197/e6edbfb7-f693-4acd-b8d8-95d33b8a73ce">
+
+- Each "slice" has inner and outer text.
+- Data auto-saves into browser's localstorage, BUT you should download save data to restore it later or share
+- Drag and drop to reorder.
+
+
+## Development
 
 In the project directory, you can run:
 

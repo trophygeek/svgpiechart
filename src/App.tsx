@@ -121,7 +121,8 @@ function App() {
           </Grid>
         </GridContainer>
         <div className={"usa-footer float-lower-left"}>This is a SERVERLESS site. All data is stored locally in your
-          browser.
+          browser. See the <a href={"https://github.com/trophygeek/svgpiechart"} target="_blank"
+                          rel="noreferrer">open source</a>
         </div>
       </main>
     </SegmentsContext.Provider>

@@ -109,7 +109,7 @@ ${svgSegments}
     <a download="mmm_pie.svg"
        className={"usa-button save-image-button"}
        target="_blank"
-       rel="noopener"
+       rel="noreferrer"
        href={`data:image/svg+xml;charset=utf-8,${urlData}`}> 🖼 <span
         className={"expand-text"}>Save image...</span></a><br/>
   </>

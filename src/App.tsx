@@ -97,7 +97,9 @@ function App() {
               </>
 
               <a download="savedSvgthingyData.json"
-                 href={saveAsLink} target="_blank" rel="noopener" className={"usa-button"}> 💾 Save data...</a>
+                 href={saveAsLink}
+                 target="_blank"
+                 rel="noreferrer" className={"usa-button"}> 💾 Save data...</a>
             </Grid>
             <Grid desktop={{col: 4}}>
               <Button type={"button"} onClick={() => {

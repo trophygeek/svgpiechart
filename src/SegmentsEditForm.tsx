@@ -121,9 +121,7 @@ const SortableList = () => {
 export const SegmentsEditForm = (): React.ReactElement => {
   return <>
     <form key={"mainform"}>
-      <div className={"scrollable"}>
-        <SortableList/>
-      </div>
+      <SortableList/>
     </form>
   </>;
 }

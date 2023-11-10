@@ -35,8 +35,8 @@ input[type="file"] {
   width: unset;
 }
 
-.svg {
-  padding: 10em;
+.svg-scale {
+  padding: 3em;
 }
 
 .svg-container {

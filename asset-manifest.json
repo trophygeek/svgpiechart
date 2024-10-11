@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/svgpiechart/static/css/main.2030fe7f.css",
-    "main.js": "/svgpiechart/static/js/main.f9ca2629.js",
+    "main.js": "/svgpiechart/static/js/main.cc7e348f.js",
     "static/media/jpg": "/svgpiechart/static/media/fdfa1c365bb151847b2c.fdfa1c365bb151847b2c.jpg",
     "static/media/woff2": "/svgpiechart/static/media/936869ba46988c238748.936869ba46988c238748.woff2",
     "index.html": "/svgpiechart/index.html",
     "main.2030fe7f.css.map": "/svgpiechart/static/css/main.2030fe7f.css.map",
-    "main.f9ca2629.js.map": "/svgpiechart/static/js/main.f9ca2629.js.map"
+    "main.cc7e348f.js.map": "/svgpiechart/static/js/main.cc7e348f.js.map"
   },
   "entrypoints": [
     "static/css/main.2030fe7f.css",
-    "static/js/main.f9ca2629.js"
+    "static/js/main.cc7e348f.js"
   ]
 }
